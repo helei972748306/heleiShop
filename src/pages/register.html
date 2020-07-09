@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul,ol,li{
+            list-style: none;
+        }
+        .warp-headr{
+            width: 1130px;
+            height: 98px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .headr{
+            width: 200px;
+            height: 98px;
+            background: url('https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png') no-repeat;
+        }
+        .headr > a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-indent: -99999em;
+        }
+        .login_banner_panel{
+            width: 100%;
+            height: 588px;
+            position: absolute;
+            left: 0;
+            top: 98px;
+            background: url('https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/aece569d6689b4c461bb53efd9eea9c7.jpg');
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+        .login{
+            width: 410px;
+            height: 489px; 
+            position: absolute;
+            right: 180px;
+            top: 30px;
+            background-color: #fff;
+        }
+        form{
+            width: 348px;
+            height: 406px;
+            margin: 0 auto;
+
+        }
+        form input{    
+            width: calc(100% - 20px);
+            height: 30px;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 20px;
+        }
+        .btn{
+            width: 350px;
+            height: 50px;
+            text-align:center;
+            line-height: 50px;
+            background-color: rgb(252, 98, 27);
+            color: #fff;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .login > ul{
+            height: 83px;
+        }
+        .login > ul > li{
+            width: 200px;
+            height: 83px;
+            float: left;
+            font-size: 23px;
+            text-align: center;
+            line-height: 83px;
+            color: #444;
+        }
+        .login > ul > li:hover{
+            color: rgb(252, 98, 27) ;
+        }
+        .login_1{
+            margin-right: 10px;
+        }
+        .login > ul > i{
+            height: 26px;
+            display: block;
+            border: 1px solid #777;
+            position: absolute;
+            top: 28px;
+            left: 199px;
+        }
+        .lo_duan{
+            width: 100%;
+            font-size: 14px;
+            color: #777;
+        }
+        .lo_duan > .duan{
+            margin-right: 85px;
+            color:rgb(252, 98, 27) ;
+        }
+        fieldset{
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #666;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+            color: #666;
+            margin-top: 100px;
+        }
+        .foolt{
+            width: 100%;
+            height:120px;
+            text-align: center;
+            margin-top: 588px;
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+<div class="warp-headr">
+    <div class="headr">
+        <a href="#">小米网</a>
+    </div>
+    <div class="login_banner_panel">
+        <div class="login">
+           <ul>
+               <li class="login_1">账号登录</li>
+               <i></i>
+               <li>扫码登录</li>
+           </ul>
+           <form action="#">
+                <input type="text" id="text" placeholder="邮箱/手机号码/小米ID">
+                <input type="password" id="password" placeholder="密码">
+                <div class="btn">登录</div>
+                <div class="lo_duan">
+                    <span class="duan">手机短信登录/注册</span>
+                    <span>
+                        <span>立即注册</span> | <span>忘记密码？</span>
+                    </span>
+                </div>
+                <fieldset>
+                    <legend>其他登录方式</legend>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="foolt">
+    <p>
+        <span>简体</span> |
+        <span>繁体</span> |
+        <span>English</span> |
+        <span>常见问题</span> |
+        <span>隐私政策</span>
+    </p>
+    <p>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号京ICP证110507号</p>
+</div>
+<script src="../lib/jquery-1.12.4.js"></script>
+<script src="../js/register.js"></script>
+</body>
+</html>

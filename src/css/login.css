@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f9f9f9;
+    color: #666;
+    font-size: 14px;
+    font-family: arial,"Hiragino Sans GB", "Microsoft YaHei","微軟正黑體","儷黑 Pro", sans-serif;
+}
+.wrap{
+    width: 854px;
+    margin: 120px auto;
+    padding-bottom: 30px;
+    background: #fff;
+}
+.header{
+    padding-bottom: 40px;
+}
+.logo-img{
+    width: 49px;
+    height: 48px;
+    margin: 0 auto;
+    display: block;
+    cursor: default;
+    background-image: url(../images/mi-logo.png);
+    background-color: #ff6700;
+}
+.title{
+    height: 45px;
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    line-height: 45px;
+}
+form{
+    width: 348px;
+    height: 406px;
+    margin: 0 auto;
+
+}
+form input{    
+    width: calc(100% - 20px);
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+form p{
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ff6700;
+}
+.btn{
+    width: 350px;
+    height: 50px;
+    text-align:center;
+    line-height: 50px;
+    background-color: rgb(252, 98, 27);
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+form p.active{
+    visibility: hidden;
+}
